@@ -11,7 +11,8 @@ h2 {
 }
 
 p,
-ul {
+ul,
+article {
     font-family: verdana;
     font-size: 22px;
     text-align: left;
@@ -44,4 +45,11 @@ h2.background_text2 {
 .main-wrapper {
     width: 900px;
     margin: auto;
+}
+
+footer {
+    background-color: #083145;
+    font-family: calibri;
+    font-size: 25px;
+    color: aliceblue;
 }
