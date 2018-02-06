@@ -4,26 +4,46 @@ body {
 }
 
 h1 {
-    color: black;
+    color: #083145;
     text-align: center;
+    font-family: calibri;
+}
+
+h2 {
+    color: #083145;
+    text-align: center;
+    font-family: calibri;
 }
 
 p {
     font-family: verdana;
     font-size: 20px;
     text-align: center;
+    font-family: calibri;
 }
 
 .main_background {
     background-image: url("image/pexels-photo-job.jpeg");
     background-repeat: no-repeat;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
     background-size: 100%;
     height: 600px;
 }
 
-.headline {}
+h1.background_text1 {
+    position: fixed;
+    left: 0;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+}
+
+h2.background_text2 {
+    position: fixed;
+    left: 0;
+    top: 33%;
+    width: 100%;
+    text-align: center;
+}
 
 .main-wrapper {
     width: 900px;
