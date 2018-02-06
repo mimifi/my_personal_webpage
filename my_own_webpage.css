@@ -1,24 +1,19 @@
 body {
-    background-color: #083145;
+    background-color: white;
     margin: 0;
 }
 
-h1 {
-    color: #083145;
-    text-align: center;
-    font-family: calibri;
-}
-
+h1,
 h2 {
     color: #083145;
-    text-align: center;
+    text-align: left;
     font-family: calibri;
 }
 
 p {
     font-family: verdana;
-    font-size: 20px;
-    text-align: center;
+    font-size: 22px;
+    text-align: left;
     font-family: calibri;
 }
 
@@ -30,17 +25,17 @@ p {
 }
 
 h1.background_text1 {
-    position: fixed;
+    position: absolute;
     left: 0;
-    top: 30%;
+    top: 450px;
     width: 100%;
     text-align: center;
 }
 
 h2.background_text2 {
-    position: fixed;
+    position: absolute;
     left: 0;
-    top: 33%;
+    top: 500px;
     width: 100%;
     text-align: center;
 }
