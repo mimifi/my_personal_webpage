@@ -36,6 +36,10 @@ article {
     margin: auto;
 }
 
+section {
+    padding-bottom: 100px;
+}
+
 footer {
     background-color: #083145;
     box-sizing: border-box;
@@ -54,6 +58,6 @@ address {
     text-align: center;
 }
 
-.social-icons {
-    padding-right: 20px;
+.padding-right {
+    padding-right: 5px;
 }
