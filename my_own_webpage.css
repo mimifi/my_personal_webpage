@@ -5,33 +5,30 @@ body {
 
 h1,
 h2 {
+    font-family: calibri, serif;
     color: #083145;
     text-align: left;
-    font-family: calibri;
 }
 
 p,
 ul,
 article {
-    font-family: verdana;
+    font-family: calibri, serif;
     font-size: 14px;
     text-align: left;
-    font-family: calibri;
 }
 
 .title-image {
-    background-image: url("image/pexels-photo-job.jpeg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
-    height: 500px;
+    background: url("image/pexels-photo-job.jpeg") no-repeat center;
+    background-size: cover;
+    height: 400px;
+    position: relative;
 }
 
-h1.title-text1,
-h2.title-text2 {
-    position: fixed;
-    bottom: 100%;
-    text-align: center;
+.title-text {
+    position: absolute;
+    bottom: 0;
+    padding-left: 10px;
 }
 
 .main-wrapper {
@@ -55,4 +52,8 @@ address {
     font-size: 14px;
     color: aliceblue;
     text-align: center;
+}
+
+.social-icons {
+    padding-right: 20px;
 }
