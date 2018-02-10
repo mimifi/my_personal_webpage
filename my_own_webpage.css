@@ -40,6 +40,10 @@ section {
     padding-bottom: 100px;
 }
 
+.odd-no {
+    color: rgb(9, 109, 79);
+}
+
 footer {
     background-color: #083145;
     box-sizing: border-box;
