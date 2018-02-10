@@ -36,6 +36,13 @@ article {
     margin: auto;
 }
 
+.menu {
+    background-color: #083145;
+    margin: 10px 0px 10px 0px;
+    text-align: left;
+    color: white;
+}
+
 section {
     padding-bottom: 100px;
 }
@@ -63,5 +70,5 @@ address {
 }
 
 .padding-right {
-    padding-right: 5px;
+    padding-right: 20px;
 }
