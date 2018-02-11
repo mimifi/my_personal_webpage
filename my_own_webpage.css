@@ -42,9 +42,28 @@ article {
 }
 
 .menu-bar {
+    font-family: calibri, serif;
     text-align: left;
     border-right: 5px solid white;
     padding: 5px 10px;
+}
+
+.menu-link:link,
+.menu-link:visited {
+    color: white;
+}
+
+.menu-link:hover {
+    color: green;
+}
+
+.menu-link:active {
+    color: purple;
+}
+
+.active:link,
+.active:visited {
+    color: green;
 }
 
 section {
